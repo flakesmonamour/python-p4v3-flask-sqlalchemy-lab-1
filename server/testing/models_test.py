@@ -1,7 +1,7 @@
-from app import app
+from app import app  # Ensure you have a Flask app instance
 from server.models import db, Earthquake
 from sqlalchemy_serializer import SerializerMixin
-
+import pytest
 
 class TestEarthquake:
     '''Earthquake model in models.py'''
